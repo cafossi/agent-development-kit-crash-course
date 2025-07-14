@@ -55,6 +55,10 @@ Root Agent (Entry Point)
 ---
 
 ## Environment Setup
+### For Google Cloud Shell Keep in mind
+```bash
+cloudshell workspace ~
+```
 
 ### Prerequisites
 
