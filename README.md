@@ -13,8 +13,7 @@ You only need to create one virtual environment for all examples in this course.
 python -m venv .venv
 
 # Activate (each new terminal)
-# macOS/Linux:
-source .venv/bin/activate
+
 # Windows CMD:
 .venv\Scripts\activate.bat
 # Windows PowerShell:
