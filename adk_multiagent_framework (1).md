@@ -98,7 +98,32 @@ GOOGLE_CLOUD_LOCATION=us-central1
 MODEL=gemini-2.0-flash-001
 LOG_LEVEL=INFO
 ```
-### Google Shell
+### Google Shell Environment Configuration
+
+```bash
+# Go to your working directory
+cd ~/agentic-fw
+```
+
+```bash
+# Create a virtual environment in this folder
+python3 -m venv .venv
+```
+
+```bash
+# Activate the virtual environment
+pip install -r requirements.txt
+
+```
+
+```bash
+# Validate Environment
+which python
+which pip
+pip list
+
+```
+
 
 ```bash
 
