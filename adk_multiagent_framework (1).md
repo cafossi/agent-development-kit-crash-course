@@ -124,6 +124,17 @@ pip list
 
 ```
 
+### If You Want the Latest ADK Production Features
+
+```bash
+# Check Installed ADK Version
+pip show google-adk
+```
+
+```bash
+# Use the most stable version listed on PyPI:
+pip install google-adk --upgrade
+```
 
 ```bash
 
