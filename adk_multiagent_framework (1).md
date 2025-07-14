@@ -112,9 +112,21 @@ python3 -m venv .venv
 
 ```bash
 # Activate the virtual environment
-pip install -r requirements.txt
+source .venv/bin/activate
+
 
 ```
+
+```bash
+# Install Requirements
+pip install -r requirements.txt
+```
+
+```bash
+# If the project uses pyproject.toml (which gemini-fullstack does), use:
+pip install -e .
+```
+
 
 ```bash
 # Validate Environment
