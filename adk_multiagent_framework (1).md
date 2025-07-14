@@ -98,6 +98,27 @@ GOOGLE_CLOUD_LOCATION=us-central1
 MODEL=gemini-2.0-flash-001
 LOG_LEVEL=INFO
 ```
+### Google Shell
+
+```bash
+
+# Create .env File via Bash
+cat <<EOF > .env
+GOOGLE_GENAI_USE_VERTEXAI=TRUE
+GOOGLE_CLOUD_PROJECT=agentic-fw
+GOOGLE_CLOUD_LOCATION=us-central1
+MODEL=gemini-2.0-flash-001
+LOG_LEVEL=INFO
+EOF
+```
+
+```bash
+
+# Confirm It Was Created
+cat .env
+```
+
+
 
 ### Project Structure Template
 
